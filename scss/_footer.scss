@@ -1,0 +1,21 @@
+.footer--formato{
+    background-color:#9f83bb;
+    margin-top: 15vh;
+    display: $d-flex;
+    justify-content: center;
+}
+
+footer{
+    section{
+        h3{
+            color: $oscuro;
+            display: $d-flex;
+            font-size: 25px;
+            justify-content: center;
+        }
+    }
+}
+
+.footer__img-estilo{
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+h1{
+    color: #9f83bb;
+    display: $d-flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 20vh;
+    padding-bottom: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    color: $claro;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+}
+
+h3{
+    display: $d-flex;
+    justify-content: center;
+}
+
+.div--info{
+    display: $d-flex;
+    justify-content: center;
+    align-content: space-between;
+    color: $claro;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.section__img-carrusell{
+    width: $width * 2;
+    display: $d-flex;
+    margin-top: 30px;
+}
+
+.section__img--diseño{
+    width:($width - 10) / 2;
+    height: $height + 5vh;
+    display: $d-flex;
+    justify-content: center;
+    transform: translate(700px,50px);
+    margin-top: 20px;
+}
+
+.main__img--diseño{
+    width: $width - 5;
+    height: $height + 30;
+    display: $d-flex;
+    justify-content: center;
+    transform: translate(350px,50px);
+}
+
+.info--promo{
+    color: $intermedio;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.title{
+    color: $claro;
+    display: $d-flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .container, .container-sm, .container-md, .container-lg {
+      max-width: 960px; } }
