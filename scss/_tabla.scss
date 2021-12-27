@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+//formato tabla//
+
+.grid-container{
+}
+
+table{
+    border: solid 1px black;
+    width: 90%;
+    max-width: 600x;
+    display:table;
+    margin-top: 30px;
+    text-align: center;
+}
+
+th{
+    color: $oscuro;
+    background-color: #9f83bb;
+    font-size: 20px;
+}
+
+.imagen-medidas{
+    width: 300px;
+    display: $d-flex;
+}
+

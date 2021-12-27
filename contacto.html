@@ -16,8 +16,9 @@
     <meta name="keywords" content="ambos mujer, ambos hombre, uniformes, ">
     <meta name="author" content="María Luján Nuñez">
     
-        <body>
-            <header>
+    <body>
+          <header>
+              <!--inicia nav-->
                 <nav class="navbar navbar-expand-lg navbar-dark header--color">
                     <a class="navbar-brand" href="index.html">
                         <img src="img/logo ambos.png" alt="ambos carmen" class="img-nav">
@@ -47,11 +48,17 @@
                       </form>
                     </div>
                   </nav>
-            </header>
+              <!--finaliza nav-->
+          </header>
+
+      <!--formulario de contacto-->
 
         <main>
             <h1>Contacto</h1>
-            <form action="" method="" class=" container-fluid form-style">
+                    <!--Mapa-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.328643808512!2d-58.395517384236996!3d-34.595850264590005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabde1df01bd%3A0x59fc6e926c4505ee!2sAv.%20Santa%20Fe%20%26%20Av.%20Callao%2C%20C1061%20CABA!5e0!3m2!1ses-419!2sar!4v1639274571299!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="" method="" class=" float-left form-style">
                 <fieldset>
                     <label for="nombre" class="form-text">Nombre y apellido</label>
                     <input type="text" id="nombre" required> <br>
@@ -70,21 +77,29 @@
                 </fieldset>
                 <fieldset>
                     <label for="Mensaje" class="form-text">Mensaje</label> <br>
-                    <textarea name="Mensaje" id="" cols="30" rows="10"></textarea> <br>
+                    <textarea name="Mensaje" id="" cols="30" rows="5"></textarea> <br>
                     <input type="reset" value="Cancelar">
                     <input type="submit" name="Enviar">
                 </fieldset>
             </form>
         </main>
 
+        <!--footer-->
         <footer class="footer--formato">
             <section>
                 <h3>Redes sociales</h3>
                 <a href="https://www.instagram.com/amboscarmen/">
-                <img src="img/logo ig_Mesa de trabajo 1.png" alt="instagram" class="footer__img-estilo" width="150px" height="150px"></a>
+                <img src="img/instagram.png" alt="instagram" class="footer__img-estilo" width="60px" height="60px"></a>
                 <a href="https://api.whatsapp.com/send/?phone=5491173639579&text&app_absent=0">
-                <img src="img/logo wpp_Mesa de trabajo 1.png" alt="whatsapp" class="footer__img-estilo" width="150px" height="150px"></a>
+                <img src="img/whatsapp.png" alt="whatsapp" class="footer__img-estilo" width="60px" height="60px"></a>
+                <a href="https://www.facebook.com/Amboscarmen">
+                <img src="img/facebook.png" alt="facebook" class="footer__img-estilo" width="60px" height="60px"></a>
             </section>
         </footer>
+        <!--finaliza footer-->
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     </body>
 </html>
